@@ -1,0 +1,18 @@
+1- Assign tutorial
+curl --location --request POST 'http://localhost:8080/paramedics/assign-tutorial' \                            ──(Tue,May16)─┘
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'authToken: 1:1684192286848:asdf@asdf.com:2+VBgdnFOpWa6Qk2yDqEnC/8mg5EunRo5NNubJnGvPg=' \
+--data-urlencode 'tutorial_id=1'
+
+2- Login
+
+curl -X POST -d "email=asdf@asdf.com&password=asdf" http://localhost:8080/paramedic/login
+
+
+
+
+
+
+/home/paula/testtesttest/untitled1/src/main/java/org/example/CliProject.java
+
+
